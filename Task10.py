@@ -1,0 +1,16 @@
+name = input("Enter your name: ")
+weight = float(input("Enter weight in kilograms: "))
+height = float(input("Enter height in meters: "))
+
+bmi = weight / (height * height)
+
+print("\n================================")
+print("          BMI REPORT")
+print("================================")
+
+print(f"\nName: {name}")
+print(f"Weight: {weight:g} kg")
+print(f"Height: {height:.2f} m")
+
+print(f"\nBMI: {bmi:.2f}")
+print("================================")
