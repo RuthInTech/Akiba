@@ -1,0 +1,22 @@
+print("=====================================")
+print("       STUDENT INFORMATION         ")
+print("=====================================")
+name = input("what is your name?: ")
+age= input("How old are u?: ")
+place= input("Where do u live?: ")
+uni= input("Which university do u study?: ")
+lang= input("What is favourite language?: ")
+goal=input("What is your goal in programming?: ")
+
+print()
+
+print("====================================")
+print("      Student Information           ")
+print("====================================")
+print(f"My name is {name}")
+print(f"I am {age} years ago")
+print(f"I live in {place}")
+print(f"I study in {uni}")
+print(f"My favourite language is {lang}")
+print(f"My goal is:{goal}")
+
